@@ -147,6 +147,39 @@ pip install -r requirements.txt
 ![Results](/output/detect/train2/results.png)
 
 
+
+# Validation Results
+
+## Confusion Matrix - Normalized
+
+![Confusion Matrix - Normalized](/output/detect/val/confusion_matrix_normalized.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](/output/detect/val/confusion_matrix.png)
+
+## F1 Curve
+
+![F1 Curve](/output/detect/val/F1_curve.png)
+
+## P Curve
+
+![P Curve](/output/detect/val/P_curve.png)
+
+## PR Curve
+
+![PR Curve](/output/detect/val/PR_curve.png)
+
+## R Curve
+
+![R Curve](/output/detect/val/R_curve.png)
+
+## Validated Images
+
+![Validated Image 1](/output/detect/val/val_batch0_pred.jpg)
+
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
