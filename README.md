@@ -110,6 +110,41 @@ pip install -r requirements.txt
 
 # Training Results
 
+## Overview
+
+This repository contains the training results of the YOLOv8 model for pedestrian detection. The model was trained for 50 epochs using the following datasets:
+
+- Number of Train Images: 4059
+- Number of Validation Images: 397
+- Number of Test Images: 185
+
+## Training Results
+
+### Epoch: 50
+
+- **Training Loss:**
+  - Box Loss: 1.0281
+  - Classification Loss: 0.71156
+  - DFL (Dynamic Feature Learning) Loss: 1.4072
+
+- **Metrics:**
+  - Precision (B): 0.80545
+  - Recall (B): 0.84532
+  - mAP50 (B): 0.88894
+  - mAP50-95 (B): 0.59321
+
+- **Validation Loss:**
+  - Box Loss: 1.2284
+  - Classification Loss: 0.75598
+  - DFL Loss: 1.5826
+
+- **Learning Rates:**
+  - pg0: 0.000496
+  - pg1: 0.000496
+  - pg2: 0.000496
+
+
+
 ## Confusion Matrix - Normalized
 
 ![Confusion Matrix - Normalized](/output/detect/train2/confusion_matrix_normalized.png)
