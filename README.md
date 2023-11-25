@@ -108,6 +108,45 @@ Install the dependencies using:
 pip install -r requirements.txt
 ```
 
+# Training Results
+
+## Confusion Matrix - Normalized
+
+![Confusion Matrix - Normalized](/output/detect/train2/confusion_matrix_normalized.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](/output/detect/train2/confusion_matrix.png)
+
+## F1 Curve
+
+![F1 Curve](/output/detect/train2/F1_curve.png)
+
+## Labels Correlogram
+
+![Labels Correlogram](/output/detect/train2/labels_correlogram.png)
+
+## Labels
+
+![Labels](/output/detect/train2/labels.png)
+
+## P Curve
+
+![P Curve](/output/detect/train2/P_curve.png)
+
+## PR Curve
+
+![PR Curve](/output/detect/train2/PR_curve.png)
+
+## R Curve
+
+![R Curve](/output/detect/train2/R_curve.png)
+
+## Results
+
+![Results](/output/detect/train2/results.png)
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
