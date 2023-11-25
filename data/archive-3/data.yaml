@@ -1,0 +1,13 @@
+train: ../Train/Train/images
+val: ../Val/Val/images
+test: ../Test/Test/images
+
+nc: 2
+names: ['person', 'person-like']
+
+  #roboflow:
+  #  workspace: yolo-v3-dyfia
+  #  project: yolo-v3-person
+  #  version: 1
+  #  license: CC BY 4.0
+  #  url: https://universe.roboflow.com/yolo-v3-dyfia/yolo-v3-person/dataset/1

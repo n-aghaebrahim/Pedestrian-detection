@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['child', 'person', 'silver', 'wheel']
+
+roboflow:
+  workspace: victor-reg
+  project: pedestriansdetection
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/victor-reg/pedestriansdetection/dataset/1

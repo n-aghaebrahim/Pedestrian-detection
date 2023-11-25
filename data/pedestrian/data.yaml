@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pedestrian']
+
+roboflow:
+  workspace: ntd1312000-gmail-com
+  project: pedestrian-yolov5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ntd1312000-gmail-com/pedestrian-yolov5/dataset/1
