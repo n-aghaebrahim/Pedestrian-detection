@@ -159,11 +159,11 @@ This repository contains the training results of the YOLOv8 model for pedestrian
 
 ## Labels Correlogram
 
-![Labels Correlogram](/output/detect/train2/labels_correlogram.png)
+![Labels Correlogram](/output/detect/train2/labels_correlogram.jpg)
 
 ## Labels
 
-![Labels](/output/detect/train2/labels.png)
+![Labels](/output/detect/train2/labels.jpg)
 
 ## P Curve
 
